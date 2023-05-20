@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import Provider from '@/components/Provider';
 import Narbar from '@/components/Narbar';
+import { Toaster } from '@/ui/Toast';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,9 +24,10 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-slate-50 dark:bg-slate-900 antialiased">
         <Provider>
+          {children}
+          <Toaster position="bottom-right" />
           {/* @ts-expect-error Server Component */}
           <Narbar />
-          {children}
         </Provider>
         {/* Allow for more height ob mobile devices */}
         <div className="h-40 md:hidden" />
