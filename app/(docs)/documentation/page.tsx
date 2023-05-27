@@ -6,7 +6,7 @@ import 'simplebar-react/dist/simplebar.min.css';
 import DocumentationTabs from '@/components/DocumentationTabs';
 
 export const metadata: Metadata = {
-  title: 'Similarity API | Documentation',
+  title: 'Similarity.io | Documentation',
   description: 'Free & open-source text similarity API',
 };
 

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Similarity API | Home',
+  title: 'Similarity.io | Home',
   description: 'Free & open-source text similarity API',
 };
 
