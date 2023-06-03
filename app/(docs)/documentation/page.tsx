@@ -15,7 +15,7 @@ const page: FC = () => {
     <div className="container max-w-7xl mx-auto mt-12">
       <div className="flex flex-col items-center gap-6">
         <LHeading>Making a request</LHeading>
-        <Paragraph>api/v1/similarity</Paragraph>
+        <Paragraph>api/v1/</Paragraph>
 
         <DocumentationTabs />
       </div>
