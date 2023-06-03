@@ -2,7 +2,7 @@ export const nodejs = `const axios = require("axios");
 
 const options = {
     method: 'POST',
-    url: 'https://similarityapi.com/api/v1/similarity',
+    url: 'https://similarity-api-tau.vercel.app/api/v1',
     params: {
       text1: 'First text',
       text2: 'Second text'
@@ -20,7 +20,7 @@ axios.request(options).then(function (response) {
 
 export const python = `import requests
 
-url = 'https://similarityapi.com/api/v1/similarity'
+url: 'https://similarity-api-tau.vercel.app/api/v1',
 api_key = 'YOUR_API_KEY'
 text1 = 'First text'
 text2 = 'Second text'
