@@ -47,6 +47,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="inline absolute bottom-0 left-0 m-2 dark:text-white">
+        By{' '}
+        <a
+          className="underline dark:text-light-gold text-blue-500"
+          href="https://molin7.vercel.app/"
+          target="_blank"
+        >
+          @molin
+        </a>
+        <br />
+        View source on{' '}
+        <a
+          className="underline dark:text-light-gold text-blue-500"
+          href="https://github.com/MolinDeng/similarity-api"
+          target="_blank"
+        >
+          Github
+        </a>
+      </div>
     </main>
   );
 }
